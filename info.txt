@@ -1,0 +1,25 @@
+Step 1: 
+	- install node
+	- install Shopify cli
+
+Step 2: 
+	- create git repository
+	- and push theme file
+
+Step 3: 
+	- create file "Shopify.theme.toml"
+	- write code 
+		-[environments.development]
+		-store = storename.myshopify.com
+Step 4: 
+	- open terminal and command
+	- Shopify theme pull -e development
+	- then connect store
+	- common again 	
+		- Shopify theme dev -e development
+
+Step 5:
+	- push your project in your git again
+
+
+Best of luck
